@@ -1,0 +1,19 @@
+
+{
+	"manifest_version" : 2,
+	"name" : "borderify",
+	"version" : "1.0",
+	"description" : "my First Extension",
+	"icons" : {
+		"12": "xyz.jpg"
+	},
+	"content_scripts" :[
+		{
+
+			"js": ["borderify.js"],
+			"matches": ["<all_urls>"],
+			"js": ["borderify1.js"]
+		}
+	]
+
+}
